@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiere im Winter – Kinderlexikon</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#eef7ff;
+    color:#234;
+}
+
+header{
+    background:#2b7de9;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+main{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+#search{
+    width:100%;
+    padding:15px;
+    font-size:20px;
+    border:2px solid #2b7de9;
+    border-radius:12px;
+    box-sizing:border-box;
+}
+
+.card{
+    background:white;
+    margin-top:15px;
+    padding:18px;
+    border-radius:14px;
+    box-shadow:0 2px 6px rgba(0,0,0,.1);
+}
+
+.tag{
+    display:inline-block;
+    padding:6px 10px;
+    border-radius:8px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.winterschlaf{background:#ffe082;}
+.winterruhe{background:#b3e5fc;}
+.winterstarre{background:#c8e6c9;}
+.winteraktiv{background:#ffccbc;}
+.zugvogel{background:#d1c4e9;}
+.teilzieher{background:#aed581;}
+.standvogel{background:#f8bbd0;}
+.weitere{background:#e0e0e0;}
+
+h2{
+    margin-top:0;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🐾 Tiere im Winter</h1>
+<p>Suche nach einem Tier oder einer Winterstrategie.</p>
+</header>
+
+<main>
+
+<input
+id="search"
+type="text"
+placeholder="Suche nach Igel, Fuchs, Zugvogel oder Winterschlaf ..."
+onkeyup="filterCards()">
+
+<!-- WINTERSCHLAF -->
+
+<div class="card animal">
+<div class="tag winterschlaf">Winterschlaf</div>
+<h2>Igel</h2>
+<p>Der Igel lebt in Gärten, Hecken und Wäldern. Er frisst Käfer, Würmer und andere kleine Tiere. Im Herbst frisst er besonders viel und legt Fettreserven für den Winter an. Im Winter hält er Winterschlaf und wacht erst im Frühjahr wieder auf.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterschlaf">Winterschlaf</div>
+<h2>Fledermaus</h2>
+<p>Fledermäuse leben in Höhlen, Baumhöhlen oder auf Dachböden. Sie ernähren sich von Insekten. Vor dem Winter suchen sie geschützte Überwinterungsplätze. Die kalte Jahreszeit verbringen sie schlafend.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterschlaf">Winterschlaf</div>
+<h2>Haselmaus</h2>
+<p>Die Haselmaus lebt in Hecken und Wäldern. Sie frisst Nüsse, Samen und Früchte. Im Herbst frisst sie sich ein Fettpolster an. Danach schläft sie den Winter über in einem geschützten Nest.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterschlaf">Winterschlaf</div>
+<h2>Murmeltier</h2>
+<p>Murmeltiere leben in den Bergen. Sie fressen Gräser und Kräuter. Im Herbst bereiten sie ihren Bau auf den Winter vor. Danach verbringen sie den Winter im Winterschlaf.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterschlaf">Winterschlaf</div>
+<h2>Feldhamster</h2>
+<p>Der Feldhamster lebt auf Feldern. Er frisst Samen, Körner und Pflanzen. Vor dem Winter sammelt er Vorräte in seinem Bau. Danach verbringt er einen großen Teil des Winters unter der Erde.</p>
+</div>
+
+<!-- WINTERRUHE -->
+
+<div class="card animal">
+<div class="tag winterruhe">Winterruhe</div>
+<h2>Eichhörnchen</h2>
+<p>Eichhörnchen leben in Wäldern, Parks und Gärten. Sie fressen Nüsse, Samen und Zapfen. Im Herbst verstecken sie viele Vorräte. Im Winter wachen sie regelmäßig auf und suchen diese wieder.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterruhe">Winterruhe</div>
+<h2>Dachs</h2>
+<p>Der Dachs lebt in einem Bau unter der Erde. Er frisst Würmer, Früchte und kleine Tiere. Vor dem Winter legt er Fettreserven an. Im Winter schläft er viel und wacht manchmal auf.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterruhe">Winterruhe</div>
+<h2>Waschbär</h2>
+<p>Waschbären leben in Wäldern und Städten. Sie fressen Früchte, Insekten und kleine Tiere. Im Herbst fressen sie besonders viel. Im Winter ruhen sie häufig in ihrem Versteck.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterruhe">Winterruhe</div>
+<h2>Braunbär</h2>
+<p>Braunbären leben in großen Wäldern und Gebirgen. Sie fressen Pflanzen, Beeren und kleine Tiere. Vor dem Winter legen sie Fettreserven an. Im Winter ruhen sie lange Zeit in ihrer Höhle.</p>
+</div>
+
+<!-- WINTERSTARRE -->
+
+<div class="card animal">
+<div class="tag winterstarre">Winterstarre</div>
+<h2>Kröte</h2>
+<p>Kröten leben an Gewässern und in feuchten Gebieten. Sie fressen Insekten, Würmer und Schnecken. Im Herbst suchen sie geschützte Verstecke. Im Winter werden sie fast bewegungslos.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterstarre">Winterstarre</div>
+<h2>Regenwurm</h2>
+<p>Regenwürmer leben im Boden. Sie ernähren sich von abgestorbenen Pflanzenteilen. Im Winter ziehen sie sich tief in die Erde zurück. Dort sind sie vor Frost geschützt.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterstarre">Winterstarre</div>
+<h2>Schnecke</h2>
+<p>Schnecken leben in Gärten, Wiesen und Wäldern. Sie fressen Pflanzen und Blätter. Vor dem Winter suchen sie geschützte Verstecke. Dort verbringen sie die kalte Jahreszeit.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterstarre">Winterstarre</div>
+<h2>Marienkäfer</h2>
+<p>Marienkäfer leben auf Wiesen und in Gärten. Sie fressen Blattläuse. Im Herbst suchen viele gemeinsam geschützte Plätze. Im Winter überwintern sie oft in Gruppen.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterstarre">Winterstarre</div>
+<h2>Eidechse</h2>
+<p>Eidechsen leben an sonnigen und trockenen Orten. Sie fressen Insekten und Spinnen. Vor dem Winter suchen sie frostfreie Verstecke. Dort bewegen sie sich kaum.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterstarre">Winterstarre</div>
+<h2>Schildkröte</h2>
+<p>Viele Schildkröten leben an Land oder im Wasser. Sie fressen überwiegend Pflanzen. Vor dem Winter suchen sie geschützte Überwinterungsplätze. Im Winter bewegen sie sich kaum.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winterstarre">Winterstarre</div>
+<h2>Zecke</h2>
+<p>Zecken leben in Wäldern, Wiesen und hohem Gras. Sie ernähren sich vom Blut anderer Tiere. Bei niedrigen Temperaturen werden sie deutlich weniger aktiv. An warmen Wintertagen können sie wieder auf Nahrungssuche gehen.</p>
+</div>
+
+<!-- WINTERAKTIV -->
+
+<div class="card animal">
+<div class="tag winteraktiv">Winteraktiv</div>
+<h2>Fuchs</h2>
+<p>Der Fuchs lebt in Wäldern, Feldern und an Waldrändern. Er frisst Mäuse, Früchte und andere kleine Tiere. Im Herbst bekommt er ein dichtes Winterfell. Im Winter bleibt er aktiv.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winteraktiv">Winteraktiv</div>
+<h2>Reh</h2>
+<p>Rehe leben in Wäldern und auf Wiesen. Sie fressen Knospen, Blätter und Gräser. Im Herbst wächst ihnen ein dichtes Winterfell. Im Winter bewegen sie sich weniger und sparen Energie.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winteraktiv">Winteraktiv</div>
+<h2>Feldhase</h2>
+<p>Feldhasen leben auf Feldern und Wiesen. Sie fressen Gräser und Kräuter. Vor dem Winter wächst ihnen ein dichteres Fell. Im Winter bleiben sie aktiv und suchen weiter Nahrung.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winteraktiv">Winteraktiv</div>
+<h2>Wildschwein</h2>
+<p>Wildschweine leben in Wäldern. Sie fressen Wurzeln, Eicheln und andere Pflanzen. Im Herbst fressen sie besonders viele Bucheckern und Eicheln. Im Winter bleiben sie aktiv.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winteraktiv">Winteraktiv</div>
+<h2>Wiesel</h2>
+<p>Das Wiesel lebt auf Feldern, Wiesen und an Waldrändern. Es frisst Mäuse und andere kleine Tiere. Auch im Winter bleibt es aktiv. Sein dichtes Fell schützt es vor der Kälte.</p>
+</div>
+
+<div class="card animal">
+<div class="tag winteraktiv">Winteraktiv</div>
+<h2>Eule</h2>
+<p>Eulen leben in Wäldern und Parks. Sie jagen Mäuse und andere kleine Tiere. Ihr dichtes Federkleid schützt sie vor Kälte. Auch im Winter gehen sie auf die Jagd.</p>
+</div>
+
+<!-- ZUGVÖGEL -->
+
+<div class="card animal">
+<div class="tag zugvogel">Zugvogel</div>
+<h2>Storch</h2>
+<p>Störche bauen ihre Nester auf Dächern oder Masten. Sie ernähren sich von Fröschen, Würmern und Insekten. Im Herbst ziehen sie in wärmere Gebiete. Dort finden sie genügend Nahrung.</p>
+</div>
+
+<div class="card animal">
+<div class="tag zugvogel">Zugvogel</div>
+<h2>Schwalbe</h2>
+<p>Schwalben leben häufig in der Nähe von Menschen. Sie fressen fliegende Insekten. Vor dem Winter fliegen sie in den Süden. Im Frühling kehren sie zurück.</p>
+</div>
+
+<div class="card animal">
+<div class="tag zugvogel">Zugvogel</div>
+<h2>Kuckuck</h2>
+<p>Der Kuckuck lebt in Wäldern und Hecken. Er frisst Insekten und Raupen. Im Herbst beginnt seine Reise nach Afrika. Den Winter verbringt er nicht in Deutschland.</p>
+</div>
+
+<div class="card animal">
+<div class="tag zugvogel">Zugvogel</div>
+<h2>Gänse</h2>
+<p>Viele Gänse leben an Seen und Flüssen. Sie ernähren sich von Gräsern und Pflanzen. Im Herbst ziehen viele Arten in wärmere Regionen. Dabei legen sie oft weite Strecken zurück.</p>
+</div>
+
+<div class="card animal">
+<div class="tag zugvogel">Zugvogel</div>
+<h2>Nachtigall</h2>
+<p>Die Nachtigall lebt in Hecken und Gebüschen. Sie ernährt sich von Insekten und anderen kleinen Tieren. Im Herbst fliegt sie nach Afrika. Im Frühjahr kehrt sie wieder zurück.</p>
+</div>
+
+<!-- TEILZIEHER -->
+
+<div class="card animal">
+<div class="tag teilzieher">Teilzieher</div>
+<h2>Rotkehlchen</h2>
+<p>Rotkehlchen leben in Gärten, Parks und Wäldern. Sie fressen Insekten, Würmer und Beeren. Vor dem Winter suchen sie Orte mit ausreichend Nahrung. Viele ziehen im Winter in den wärmeren Süden. Vor allem Weibchen sowie jüngere Tiere aus Mitteleuropa fliegen im Oktober in den Mittelmeerraum oder nach Westeuropa und kehren im März zurück. Gleichzeitig kommen viele Rotkehlchen aus Skandinavien oder Russland nach Deutschland, um hier zu überwintern.</p>
+</div>
+
+<div class="card animal">
+<div class="tag teilzieher">Teilzieher</div>
+<h2>Amsel</h2>
+<p>Die Amsel lebt in Gärten, Parks und Wäldern. Sie frisst Würmer, Insekten und Beeren. Vor dem Winter sucht sie Gebiete mit ausreichend Nahrung. Viele Amseln bleiben hier, andere ziehen in wärmere Regionen.</p>
+</div>
+
+<div class="card animal">
+<div class="tag teilzieher">Teilzieher</div>
+<h2>Star</h2>
+<p>Der Star lebt in Parks, Gärten und auf Wiesen. Er frisst Insekten, Würmer und Früchte. Vor dem Winter sammeln sich viele Stare in großen Schwärmen. Manche ziehen in wärmere Gebiete, andere bleiben hier.</p>
+</div>
+
+<!-- STANDVÖGEL -->
+
+<div class="card animal">
+<div class="tag standvogel">Standvogel</div>
+<h2>Blaumeise</h2>
+<p>Blaumeisen leben in Wäldern, Parks und Gärten. Sie fressen Samen und Insekten. Vor dem Winter suchen sie gute Futterplätze. Im Winter besuchen sie oft Futterstellen.</p>
+</div>
+
+<div class="card animal">
+<div class="tag standvogel">Standvogel</div>
+<h2>Specht</h2>
+<p>Spechte leben im Wald. Sie suchen Insekten unter der Baumrinde. Vor dem Winter suchen sie geeignete Bäume zur Nahrungssuche. Deshalb bleiben sie auch im Winter hier.</p>
+</div>
+
+<div class="card animal">
+<div class="tag standvogel">Standvogel</div>
+<h2>Sperling</h2>
+<p>Sperlinge leben oft in der Nähe von Menschen. Sie fressen Samen und Körner. Im Winter bleiben sie meist bei uns. Häufig suchen sie Futterstellen auf.</p>
+</div>
+
+<div class="card animal">
+<div class="tag standvogel">Standvogel</div>
+<h2>Eichelhäher</h2>
+<p>Der Eichelhäher lebt in Wäldern. Er sammelt im Herbst Eicheln und versteckt sie. Diese Vorräte helfen ihm durch den Winter. Deshalb muss er nicht wegziehen.</p>
+</div>
+
+<div class="card animal">
+<div class="tag standvogel">Standvogel</div>
+<h2>Meise</h2>
+<p>Meisen leben in Wäldern, Parks und Gärten. Sie ernähren sich von Samen und Insekten. Vor dem Winter suchen sie gute Futterstellen. Dort finden sie auch im Winter Nahrung.</p>
+</div>
+
+<!-- WEITERE -->
+
+<div class="card animal">
+<div class="tag weitere">Weitere Tiere</div>
+<h2>Forelle</h2>
+<p>Forellen leben in Bächen und Flüssen. Sie fressen Insekten und kleine Wassertiere. Auch im Winter bleiben sie aktiv. Sie suchen weiterhin Nahrung im Wasser.</p>
+</div>
+
+</main>
+
+<script>
+function filterCards() {
+    const input = document.getElementById('search').value.toLowerCase();
+
+    document.querySelectorAll('.animal').forEach(card => {
+        card.style.display =
+            card.innerText.toLowerCase().includes(input)
+            ? 'block'
+            : 'none';
+    });
+}
+</script>
+
+</body>
+</html>
